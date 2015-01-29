@@ -1,0 +1,7 @@
+{
+    "enable":true,
+    "sequence_number":"0",
+    "definition":"arp",
+    "match_action":"drop",
+    "comment":"Disable ARP as we end up with ARP loops. fdfgeerert"
+}

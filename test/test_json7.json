@@ -1,0 +1,14 @@
+// Test for trailing comma support
+{
+  a : [],
+  b : [1, 2],
+  c : [1, ],
+  d : "test",
+  e : "test",
+  f : "test",
+  g : {},
+}
+
+/* Also check with a closing comment */
+
+

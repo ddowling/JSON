@@ -1,0 +1,6 @@
+[
+  "string in double quotes",
+  "string with embedded quote \" character and single quote ' ",
+  'string in single quotes with embedded double quote " ',
+  'string in single quotes with escaped single quote \' '
+]

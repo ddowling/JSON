@@ -1,0 +1,12 @@
+/*
+ * This example contains unquoted field names
+ */
+{
+    name : "Bruce",
+    age : 47,
+    gender : "male",
+    country : "Australia",
+    v1 : true,
+    v2 : false,
+    v3 : null
+}

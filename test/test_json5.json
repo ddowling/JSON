@@ -1,0 +1,14 @@
+/*
+ * This example contains comments. This is an extension to the basic
+ * JSON syntax but is useful in some cases
+ */
+{ // Start of object
+  "menu": [ /* start of array */
+    {"id": "Find", "label": "Find..."}, // C++ comment
+    {"id": "FindAgain", "label": "Find Again"},
+    {"id": "Copy"},
+    {"id": /* embedded comment */ "CopyAgain", "label": "Copy Again"},
+    {"id": "CopySVG", "label": "Copy SVG"}
+ // end of array
+  ]
+/* end of object */ }
