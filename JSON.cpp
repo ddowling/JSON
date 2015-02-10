@@ -110,7 +110,6 @@ namespace JSON
 	    int c = (unsigned char)raw[i];
 
 	    // Common case first
-	    // FIXME Do we have to escape '/'? www.json.org suggests so
 	    if (c >= 0x20 && c != '"' && c != '\\' && c < 0x7f)
 		result += c;
 	    else
