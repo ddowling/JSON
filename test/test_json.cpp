@@ -137,6 +137,8 @@ int main(int argc, char **argv)
 	"test_json8.json",
 	"test_json9.json",
 	"test_json10.json",
+	"test_json11.json",
+	"test_json12.json"
     };
 
     for (const char **ex = examples;
