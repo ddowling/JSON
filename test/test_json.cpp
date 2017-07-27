@@ -138,7 +138,10 @@ int main(int argc, char **argv)
 	"test_json9.json",
 	"test_json10.json",
 	"test_json11.json",
-	"test_json12.json"
+	"test_json12.json",
+	"test_json13.json",
+	"test_json14.json",
+	"test_json15.json",
     };
 
     for (const char **ex = examples;
@@ -154,7 +157,7 @@ int main(int argc, char **argv)
         cout << "Parsing JSON" << endl;
 	v = parser.parse(str);
 
-	cout << *ex << "Parsed to JSON:" << endl;
+	cout << *ex << " parsed to JSON:" << endl;
 	cout << v->encodePretty() << endl;
     }
 
